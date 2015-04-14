@@ -3,7 +3,7 @@ p { font-family: Roberto, font-weight: 400; }
 
 img.bg {
   /* Set rules to fill background */
-  min-width: 2048;
+  min-width: 2048px;
 
   /* Set up proportionate scaling */
   width: 100%;
