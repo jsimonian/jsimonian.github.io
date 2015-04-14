@@ -1,36 +1,4 @@
-.ribbon {
-  background-color: #a00;
-  overflow: hidden;
-  white-space: nowrap;
-  /* top left corner */
-  position: absolute;
-  right: -50px;
-  top: 40px;
-  /* 45 deg ccw rotation */
-  -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-          transform: rotate(45deg);
-  /* shadow */
-  -webkit-box-shadow: 0 0 10px #888;
-     -moz-box-shadow: 0 0 10px #888;
-          box-shadow: 0 0 10px #888;
-}
-.ribbon a {
-  border: 1px solid #faa;
-  color: #fff;
-  display: block;
-  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-  /* shadow */
-  text-shadow: 0 0 5px #444;
-}
-
-.forkongithub a {
+.forkongithub {
   background:#000;
   color:#fff;
   text-decoration:none;
@@ -52,13 +20,13 @@
 .forkongithub a::before,
 .forkongithub a::after {
   content:"";
-width:100%;
-display:block;
-position:absolute;
-top:1px;
-left:0;
-height:1px;
-background:#fff;
+  width:100%;
+  display:block;
+  position:absolute;
+  top:1px;
+  left:0;
+  height:1px;
+  background:#fff;
 }
 
 .forkongithub a::after {
@@ -67,7 +35,7 @@ background:#fff;
 }
 
 @media screen and (min-width:800px) {
-  
+
   .forkongithub {
     position:fixed;
     display:block;
