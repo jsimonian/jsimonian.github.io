@@ -1,9 +1,11 @@
 h1 { font-family: Roberto, font-weight: 700; }
 p { font-family: Roberto, font-weight: 400; }
 
+p.low {height: 2000px;}
+
 img.bg {
   /* Set rules to fill background */
-  min-width: 2048px;
+  min-width: 1024px;
 
   /* Set up proportionate scaling */
   width: 100%;
