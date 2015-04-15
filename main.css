@@ -43,6 +43,7 @@ div#main {
 #main header {
   margin: 120px auto auto auto;
   width: 1000px;
+  pointer-events: none;
 }
 
 #main header h1 {
@@ -60,7 +61,6 @@ div#main {
 }
 
 .social-links {
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
