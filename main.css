@@ -2,9 +2,7 @@ h1 { font-family: Roberto, font-weight: 700; }
 p { font-family: Roberto, font-weight: 400; }
 
 html {
-  background-image: url("./images/biggrad.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: #201624;
 }
 
 body {
@@ -16,7 +14,7 @@ header {
 }
 
 div#bg {
-  background: url("./images/skyline.png");
+  background: url("./images/skylinegrad.png");
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
