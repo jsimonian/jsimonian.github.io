@@ -1,9 +1,14 @@
 h1 { font-family: Roberto, font-weight: 700; }
 p { font-family: Roberto, font-weight: 400; }
 
+html {
+  background-image: url("./images/biggrad.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 body {
   margin: 0px;
-  background: linear-gradient(340deg, #221826, #0b060a)
 }
 
 header {
