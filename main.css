@@ -11,9 +11,10 @@ header {
   background-color: #d3d3d3;
 }
 
-img.bg {
+div#bg {
+  background: url("./images/skyline.jpg");
+  height: 100%;
   width: 100%;
-  height: auto;
   position: fixed;
   bottom: 0;
   left: 0;
