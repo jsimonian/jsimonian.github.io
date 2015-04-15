@@ -15,14 +15,14 @@ div#bg {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  -webkit-animation-name: load; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
-  animation-name: example;
-  animation-duration: 5s;
+  -webkit-animation-name: loadbackground; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: loadbackground;
+  animation-duration: 4s;
   pointer-events: none;
 }
 
-@-webkit-keyframes load {
+@-webkit-keyframes loadbackground {
   0%   {opacity: 0}
   100% {opacity: 1}
 }
@@ -66,6 +66,10 @@ div#main {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  -webkit-animation-name: loadimages; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  animation-name: loadimages;
+  animation-duration: 4s;
 
   -webkit-flex-flow: row wrap;
   justify-content: center;
@@ -85,4 +89,31 @@ div#main {
 	font-size: 30px;
   line-height: 60px;
 	color: #fff;
+}
+
+.social-links a:hover{
+  text-align: center;
+	width: 80px;
+	height: 80px;
+  margin: 10px;
+	border: 2px solid #fff;
+  color: #fff;
+	border-radius: 100%;
+}
+
+.social-links a:hover i {
+  font-size: 40px;
+  line-height: 80px;
+}
+
+@-webkit-keyframes loadimages {
+  0%   {opacity: 0; margin-top: 50px;}
+  25%  {opacity: 0; margin-top: 50px;}
+  100% {opacity: 1}
+}
+
+@keyframes loadimages {
+  0%   {opacity: 0; margin-top: 50px;}
+  25%  {opacity: 0; margin-top: 50px;}
+  100% {opacity: 1}
 }
