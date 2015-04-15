@@ -59,25 +59,34 @@ div#main {
   font-size: 30px;
 }
 
-.social-links {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/*.social-links {
+  width: 100%;
   display: flex;
   justify-content: center;
-  display: -webkit-flex; /* Safari */
-  -webkit-justify-content: center; /* Safari 6.1+ */
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+}*/
+
+.social-links {
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
 }
 
 .social-links a{
   text-align: center;
-	float: left;
 	width: 60px;
 	height: 60px;
+  margin: 20px;
 	border: 2px solid #fff;
   color: #fff;
 	border-radius: 100%;
-  margin: 20px
 }
 
 .social-links a i{
@@ -85,7 +94,6 @@ div#main {
   line-height: 60px;
 	color: #fff;
 }
-
 
 .forkongithub a {
   background:#000;
