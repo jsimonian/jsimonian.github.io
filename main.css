@@ -20,9 +20,9 @@ div#bg {
   height: 100%;
   width: 100%;
   -webkit-animation-name: load; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 10s;
   pointer-events: none;
 }
 
