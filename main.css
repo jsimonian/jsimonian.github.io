@@ -9,20 +9,31 @@ body {
   margin: 0px;
 }
 
-header {
-
-}
 
 div#bg {
   background: url("./images/skylinegrad.png");
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
   bottom: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-animation-name: load; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 4s;
   pointer-events: none;
+}
+
+@-webkit-keyframes load {
+  0%   {opacity: 0}
+  100% {opacity: 1}
+}
+
+@keyframes load {
+  0%   {opacity: 0}
+  100% {opacity: 1}
 }
 
 
