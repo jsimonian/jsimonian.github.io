@@ -51,6 +51,7 @@ div#main {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 50px;
+  font-size: 8vh;
 }
 
 #main header p {
@@ -58,6 +59,7 @@ div#main {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 30px;
+  font-size: 5vh;
 }
 
 .social-links {
