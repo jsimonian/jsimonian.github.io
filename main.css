@@ -61,9 +61,6 @@ div#main {
 }
 
 .social-links {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   -webkit-animation-name: loadimages; /* Chrome, Safari, Opera */
@@ -72,6 +69,8 @@ div#main {
   animation-duration: 4s;
 
   -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
