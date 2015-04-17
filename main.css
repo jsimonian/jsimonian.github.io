@@ -15,8 +15,8 @@ div#bg {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-  -webkit-animation-name: loadbackground; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-animation-name: loadbackground;
+  -webkit-animation-duration: 4s;
   animation-name: loadbackground;
   animation-duration: 4s;
   pointer-events: none;
@@ -63,8 +63,8 @@ div#main {
 .social-links {
   display: -webkit-flex;
   display: flex;
-  -webkit-animation-name: loadimages; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-animation-name: loadimages;
+  -webkit-animation-duration: 4s;
   animation-name: loadimages;
   animation-duration: 4s;
 
@@ -76,10 +76,14 @@ div#main {
 
 .social-links a{
   text-align: center;
-	width: 60px;
+	width: 60px; /* Fallback in case vw fails */
 	height: 60px;
   margin: 20px;
 	border: 2px solid #fff;
+  width: 9vh;
+  height: 9vh;
+  margin: 3vh;
+  border: 0.3vh solid #fff;
   color: #fff;
 	border-radius: 100%;
 }
@@ -87,6 +91,8 @@ div#main {
 .social-links a i{
 	font-size: 30px;
   line-height: 60px;
+  font-size: 4.5vh;
+  line-height: 9vh;
 	color: #fff;
 }
 
@@ -96,6 +102,10 @@ div#main {
 	height: 80px;
   margin: 10px;
 	border: 2px solid #fff;
+  width: 12vh;
+  height: 12vh;
+  margin: 1.5vh;
+  border: 0.3vh solid #fff;
   color: #fff;
 	border-radius: 100%;
 }
@@ -103,6 +113,9 @@ div#main {
 .social-links a:hover i {
   font-size: 40px;
   line-height: 80px;
+  font-size: 6vh;
+  line-height: 12vh;
+  color: #fff
 }
 
 @-webkit-keyframes loadimages {
