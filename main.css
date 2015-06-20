@@ -18,23 +18,6 @@ div#bg {
   pointer-events: none;
 }
 
-/*div.animate {
-  -webkit-animation-name: loadbackground;
-  -webkit-animation-duration: 4s;
-  animation-name: loadbackground;
-  animation-duration: 4s;
-}
-
-@-webkit-keyframes loadbackground {
-  0%   {opacity: 0}
-  100% {opacity: 1}
-}
-
-@-keyframes load {
-  0%   {opacity: 0}
-  100% {opacity: 1}
-}*/
-
 div#main {
   position: absolute;
   top: 0;
@@ -68,18 +51,13 @@ div#main {
 .social-links {
   display: -webkit-flex;
   display: flex;
-  -webkit-animation-name: loadimages;
-  -webkit-animation-duration: 4s;
-  animation-name: loadimages;
-  animation-duration: 4s;
-
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   -webkit-justify-content: center;
   justify-content: center;
 }
 
-.social-links a{
+.social-links a {
   text-align: center;
 	width: 60px; /* Fallback in case vw fails */
 	height: 60px;
@@ -93,7 +71,7 @@ div#main {
 	border-radius: 100%;
 }
 
-.social-links a i{
+.social-links a i {
 	font-size: 30px;
   line-height: 60px;
   font-size: 4.5vh;
@@ -121,16 +99,4 @@ div#main {
   font-size: 6vh;
   line-height: 12vh;
   color: #fff
-}
-
-@-webkit-keyframes loadimages {
-  0%   {opacity: 0; margin-top: 50px;}
-  25%  {opacity: 0; margin-top: 50px;}
-  100% {opacity: 1}
-}
-
-@keyframes loadimages {
-  0%   {opacity: 0; margin-top: 50px;}
-  25%  {opacity: 0; margin-top: 50px;}
-  100% {opacity: 1}
 }
