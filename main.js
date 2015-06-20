@@ -1,12 +1,15 @@
-// var loadbg = function() {
-//   $("div#bg").load(function() {
-//     console.log("Loaded");
-//     $("div#bg").animate({
-//       opacity: 1
-//     }, 4000, function() {})
-//   });
-// }
-//
-// $(document).ready(loadbg);
-
-$("div#bg").bind("load", function () { $(this).fadeIn(2000); });
+$(document).ready(function() {
+  $('div#bg').hide();
+  $("<img/>").attr("src", "./images/skylinegrad.png").load(function() {
+    $(this).remove();
+    $("div#bg").fadeIn(5000);
+  });
+  // if ($('div#bg')[0].complete) {
+  //   $('div#bg').fadeIn();
+  // }
+  // else {
+  //   $('div#bg').load(function() {
+  //     $('div#bg').fadeIn();
+  //   });
+  // }
+});
