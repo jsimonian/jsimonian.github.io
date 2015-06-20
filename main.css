@@ -48,7 +48,7 @@ div#main {
   font-size: 4.5vh;
 }
 
-.social-links {
+#social-links {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -57,7 +57,7 @@ div#main {
   justify-content: center;
 }
 
-.social-links a {
+#social-links a {
   text-align: center;
 	width: 60px; /* Fallback in case vw fails */
 	height: 60px;
@@ -71,7 +71,7 @@ div#main {
 	border-radius: 100%;
 }
 
-.social-links a i {
+#social-links a i {
 	font-size: 30px;
   line-height: 60px;
   font-size: 4.5vh;
@@ -79,7 +79,7 @@ div#main {
 	color: #fff;
 }
 
-.social-links a:hover{
+#social-links a:hover{
   text-align: center;
 	width: 80px;
 	height: 80px;
@@ -93,7 +93,7 @@ div#main {
 	border-radius: 100%;
 }
 
-.social-links a:hover i {
+#social-links a:hover i {
   font-size: 40px;
   line-height: 80px;
   font-size: 6vh;
