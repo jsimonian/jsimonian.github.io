@@ -9,11 +9,10 @@ body {
 
 
 div#bg img {
-  size: 100% auto;
-  position: center bottom;
-  repeat: no-repeat;
-  height: 100%;
+  position: absolute;
   width: 100%;
+  left: 0px;
+  bottom: 0px;
   pointer-events: none;
 }
 
