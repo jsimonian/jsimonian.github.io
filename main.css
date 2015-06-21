@@ -91,11 +91,11 @@ div#main {
 }
 
 .arrow i:first-child {
-  left: 25vh;
+  left: 15vh;
 }
 
 .arrow i:last-child {
-  right: 25vh;
+  right: 15vh;
 }
 
 #social-links a:hover{
