@@ -21,12 +21,11 @@ div#main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 #main header {
-  margin: 120px auto auto auto;
-  width: 1000px;
+  margin: 20vh auto auto auto;
   pointer-events: none;
 }
 
@@ -75,6 +74,28 @@ div#main {
   font-size: 4.5vh;
   line-height: 9vh;
 	color: #fff;
+}
+
+.arrow i {
+  text-align: center;
+  font-size: 10vh;
+  position: absolute;
+  top: 10vw;
+}
+
+.arrow i p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 5vh;
+  margin: 0;
+}
+
+.arrow i:first-child {
+  left: 25vh;
+}
+
+.arrow i:last-child {
+  right: 25vh;
 }
 
 #social-links a:hover{
