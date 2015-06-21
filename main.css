@@ -25,7 +25,7 @@ div#main {
 }
 
 #main header {
-  margin: 20vh auto auto auto;
+  margin: 10vw auto auto auto;
   pointer-events: none;
 }
 
@@ -80,7 +80,7 @@ div#main {
   text-align: center;
   font-size: 10vh;
   position: absolute;
-  margin: 10vw auto auto 10vw;
+  margin: 10vw auto auto auto;
 }
 
 .arrow i p {
