@@ -76,11 +76,11 @@ div#main {
 	color: #fff;
 }
 
-.arrow i {
+/*.arrow i {
   text-align: center;
   font-size: 10vh;
   position: absolute;
-  top: 10vw;
+  margin: 10vw auto auto 10vw;
 }
 
 .arrow i p {
@@ -96,7 +96,7 @@ div#main {
 
 .arrow i:last-child {
   right: 15vh;
-}
+}*/
 
 #social-links a:hover{
   text-align: center;
