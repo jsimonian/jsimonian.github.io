@@ -98,7 +98,7 @@ div#main {
   right: 15vh;
 }*/
 
-#social-links a:hover, #social-links a:focus, #social-links a:active {
+#social-links a:hover{
   text-align: center;
 	width: 80px;
 	height: 80px;
@@ -112,7 +112,7 @@ div#main {
 	border-radius: 100%;
 }
 
-#social-links a:hover i, #social-links a:focus i, #social-links a:active i {
+#social-links a:hover i {
   font-size: 40px;
   line-height: 80px;
   font-size: 6vh;
