@@ -8,11 +8,10 @@ body {
 }
 
 
-div#bg {
-  background: url("./images/skylinegrad.png");
-  background-size: 100% auto;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+div#bg img {
+  size: 100% auto;
+  position: center bottom;
+  repeat: no-repeat;
   height: 100%;
   width: 100%;
   pointer-events: none;
