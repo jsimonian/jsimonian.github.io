@@ -12,6 +12,7 @@ div#bg img {
   position: absolute;
   width: 100%;
   left: 0px;
+  right: 0px;
   bottom: 0px;
   pointer-events: none;
 }
