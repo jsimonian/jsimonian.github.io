@@ -1,0 +1,2 @@
+mkdir data8assets/materials/fa16/lab/discussion
+curl joseph.simonian.me/documents/disc4_empty.ipynb > data8assets/materials/fa16/lab/discussion/disc4_empty.ipynb
